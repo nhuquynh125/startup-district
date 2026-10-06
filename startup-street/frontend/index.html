@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Startup Street – Build your business. Own the neighborhood.</title>
+  <meta name="description" content="Startup Street is a browser-based business simulation game. Rent a shop, open a business and grow it into an empire.">
+  <link rel="icon" href="assets/icons/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <!-- Shop icon reused by every business card. Colour comes from the card's --tone. -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="icon-shop" viewBox="0 0 96 80">
+      <rect x="14" y="34" width="68" height="42" rx="4" fill="#fff" stroke="#1b2b3a" stroke-width="4"/>
+      <path d="M8 34 16 8h64l8 26z" fill="currentColor" stroke="#1b2b3a" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M32 34 36 8M48 34V8M64 34 60 8" stroke="#1b2b3a" stroke-width="3"/>
+      <rect x="40" y="50" width="16" height="26" rx="3" fill="#ffb627" stroke="#1b2b3a" stroke-width="3"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top"><img src="assets/icons/logo.svg" alt="" width="36" height="36"> Startup Street</a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+      <nav class="nav" id="main-nav" aria-label="Main">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#businesses">Businesses</a></li>
+          <li><a class="nav__link" href="#locations">Locations</a></li>
+          <li><a class="nav__link" href="#growth">Growth</a></li>
+          <li><a class="nav__link" href="#decisions">Decisions</a></li>
+        </ul>
+        <button class="btn btn--primary btn--sm" type="button" data-action="start-playing">Start Playing</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div>
+          <h1 class="hero__title">Startup<br>Street</h1>
+          <p class="hero__tagline">Build your business.<br>Own the neighborhood.</p>
+          <p class="hero__text">Move into a small shopping street, rent your first shop and turn it into the busiest corner in town. Every price, hire and supplier is your call.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary btn--lg" type="button" data-action="start-playing">Start Playing</button>
+            <a class="btn btn--lg" href="#businesses">How It Works</a>
+          </div>
+        </div>
+        <img class="hero__art" src="assets/images/hero-street.svg" alt="A small street with a bakery, a bubble tea shop, an empty lot for rent and a flower shop" width="800" height="560">
+      </div>
+    </section>
+
+    <section class="section section--alt" id="businesses">
+      <div class="container">
+        <div class="section__head">
+          <h2>Build Your First Business</h2>
+          <p>Pick a shop type that fits your style. Each one has its own customers, products and challenges.</p>
+        </div>
+        <ul class="shop-grid" role="list">
+          <li class="card card--interactive shop-card" style="--tone:#ff6f59"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Bubble Tea</h3><p>Fast, trendy and loved by students.</p><span class="badge badge--info">Coming soon</span></div></li>
+          <li class="card card--interactive shop-card" style="--tone:#e6a82a"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Restaurant</h3><p>Higher prices, bigger kitchens, longer queues.</p><span class="badge badge--info">Coming soon</span></div></li>
+          <li class="card card--interactive shop-card" style="--tone:#e0508a"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Flower Shop</h3><p>Small space, big margins, busy holidays.</p><span class="badge badge--info">Coming soon</span></div></li>
+          <li class="card card--interactive shop-card" style="--tone:#0e8a84"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Café</h3><p>Steady regulars and a cozy corner to win.</p><span class="badge badge--info">Coming soon</span></div></li>
+          <li class="card card--interactive shop-card" style="--tone:#d98f00"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Bakery</h3><p>Early mornings and fresh batches every day.</p><span class="badge badge--info">Coming soon</span></div></li>
+          <li class="card card--interactive shop-card" style="--tone:#2f7fd8"><div class="shop-card__sign"><svg aria-hidden="true"><use href="#icon-shop"/></svg></div><div class="card__body"><h3 class="card__title">Fashion Store</h3><p>Follow the seasons and stay ahead of trends.</p><span class="badge badge--info">Coming soon</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="locations">
+      <div class="container feature">
+        <div>
+          <h2>Choose Your Location</h2>
+          <p class="text-muted" style="font-size:var(--text-lg);margin-top:var(--space-3)">Where you open matters as much as what you sell. Corner shops get more foot traffic, quiet lots cost less.</p>
+          <ul class="feature__list">
+            <li>Compare rent, size and passing traffic</li>
+            <li>See who your neighbors are before you sign</li>
+            <li>Claim a spot before a rival does</li>
+          </ul>
+        </div>
+        <div class="lot-grid" aria-hidden="true">
+          <div class="lot lot--taken">Café</div><div class="lot lot--open">For rent</div><div class="lot lot--taken">Bakery</div>
+          <div class="lot lot--open">For rent</div><div class="lot lot--taken">Flowers</div><div class="lot lot--open">For rent</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="growth">
+      <div class="container feature feature--flip">
+        <div>
+          <h2>Grow Your Empire</h2>
+          <p class="text-muted" style="font-size:var(--text-lg);margin-top:var(--space-3)">Start with one tiny shop. Reinvest your profits, hire a team and open the next door.</p>
+          <ul class="feature__list">
+            <li>Upgrade your shop to serve more customers</li>
+            <li>Hire employees and run marketing campaigns</li>
+            <li>Expand to more stores along the street</li>
+          </ul>
+        </div>
+        <div class="growth" aria-hidden="true">
+          <div class="card growth__step"><span class="growth__bar"></span><strong>One shop</strong></div>
+          <div class="card growth__step"><span class="growth__bar"></span><strong>A small team</strong></div>
+          <div class="card growth__step"><span class="growth__bar"></span><strong>Several stores</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--night" id="decisions">
+      <div class="container">
+        <div class="section__head">
+          <h2>Every Decision Matters</h2>
+          <p>Prices, stock, staff and surprises. Small choices add up to a profit or a loss.</p>
+        </div>
+        <div class="decision-grid">
+          <div class="decision"><h3>Set the price</h3><p>Too high and customers walk by. Too low and you lose money on every sale.</p></div>
+          <div class="decision"><h3>Manage your stock</h3><p>Running out costs sales. Over-ordering costs cash.</p></div>
+          <div class="decision"><h3>Handle surprises</h3><p>Rainy days, rival openings and rush hours will test your plan.</p></div>
+          <div class="decision"><h3>Ask for advice</h3><p>An AI business advisor will help you read the numbers.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>Startup Street · Level 1 foundation</span>
+      <span class="status" id="backend-status" aria-live="polite"></span>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

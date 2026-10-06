@@ -1,0 +1,61 @@
+/* Startup Street design tokens. Change a value here, the whole UI follows. */
+:root {
+  /* Brand */
+  --color-primary: #0e8a84;          /* shop-awning teal */
+  --color-primary-dark: #086b66;
+  --color-primary-soft: #d6f0ed;
+  --color-secondary: #ffb627;        /* sunny yellow */
+  --color-secondary-dark: #d98f00;
+  --color-secondary-soft: #fff0c9;
+  --color-accent: #ff6f59;           /* coral */
+  --color-accent-soft: #ffe1db;
+
+  /* Surfaces */
+  --color-bg: #f1f8f6;
+  --color-bg-alt: #e2f1ee;
+  --color-surface: #ffffff;
+  --color-surface-night: #14313a;    /* dusk blue for dark bands */
+
+  /* Text */
+  --color-text: #1b2b3a;
+  --color-text-muted: #53677a;
+  --color-text-inverse: #ffffff;
+
+  /* Borders */
+  --color-border: #cfe2dd;
+  --color-border-strong: #1b2b3a;
+
+  /* Status */
+  --color-success: #2f9e5b;  --color-success-soft: #dcf3e4;
+  --color-warning: #e39a0b;  --color-warning-soft: #fdf0cf;
+  --color-error:   #d93f4a;  --color-error-soft:   #fbe0e2;
+  --color-info:    #2f7fd8;  --color-info-soft:    #dcebfb;
+
+  /* Radius */
+  --radius-sm: 8px; --radius-md: 14px; --radius-lg: 22px; --radius-pill: 999px;
+
+  /* Chunky "game UI" shadows: a solid offset edge instead of a soft blur */
+  --shadow-sm: 0 2px 0 var(--color-border-strong);
+  --shadow-md: 0 4px 0 var(--color-border-strong);
+  --shadow-lg: 0 8px 0 var(--color-border-strong);
+  --shadow-soft: 0 12px 32px rgba(20, 49, 58, .14);
+
+  /* Spacing (4px base) */
+  --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem;
+  --space-5: 1.5rem; --space-6: 2rem; --space-7: 3rem; --space-8: 4rem; --space-9: 6rem;
+
+  /* Typography */
+  --font-display: "Fredoka", "Baloo 2", ui-rounded, "Segoe UI", system-ui, sans-serif;
+  --font-body: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --text-xs: .8125rem; --text-sm: .9375rem; --text-base: 1.0625rem;
+  --text-lg: 1.25rem; --text-xl: 1.625rem; --text-2xl: 2.25rem;
+  --text-3xl: clamp(2.25rem, 4vw + 1rem, 3.5rem);
+  --text-hero: clamp(3rem, 7vw + .5rem, 6rem);
+
+  /* Layout & motion */
+  --container: 1180px;
+  --header-height: 68px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --duration: 160ms;
+  --z-header: 50; --z-modal: 100; --z-toast: 200;
+}

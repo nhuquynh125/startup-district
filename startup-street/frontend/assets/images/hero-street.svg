@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="A small commercial street with a bakery, a bubble tea shop, an empty lot for rent and a flower shop">
+  <defs><clipPath id="frame"><rect width="800" height="560" rx="32"/></clipPath></defs>
+  <g clip-path="url(#frame)" stroke="#1b2b3a" stroke-width="4" stroke-linejoin="round">
+    <rect width="800" height="560" fill="#cdebf3" stroke="none"/>
+    <circle cx="668" cy="96" r="46" fill="#ffb627"/>
+    <g fill="#fff" stroke="none"><ellipse cx="150" cy="90" rx="62" ry="22"/><ellipse cx="196" cy="76" rx="40" ry="20"/><ellipse cx="470" cy="62" rx="54" ry="18"/><ellipse cx="506" cy="50" rx="34" ry="16"/></g>
+    <g fill="#9fd0cb" stroke="none"><rect x="0" y="230" width="90" height="180"/><rect x="300" y="200" width="110" height="210"/><rect x="560" y="250" width="100" height="160"/></g>
+
+    <!-- Bakery -->
+    <rect x="36" y="180" width="200" height="226" fill="#ff8f7a"/>
+    <rect x="36" y="180" width="200" height="30" fill="#e0624c"/>
+    <rect x="62" y="230" width="148" height="40" rx="6" fill="#fff0c9"/>
+    <text x="136" y="259" text-anchor="middle" font-family="Fredoka, system-ui, sans-serif" font-weight="700" font-size="26" fill="#1b2b3a" stroke="none" textLength="86" lengthAdjust="spacingAndGlyphs">Bakery</text>
+    <path d="M52 290h168l10 36H42z" fill="#fff"/><path d="M52 290h28l-6 36H42zM108 290h28l-2 36h-28zM164 290h28l6 36h-28z" fill="#e0624c"/>
+    <rect x="58" y="338" width="70" height="68" rx="6" fill="#fff0c9"/><rect x="150" y="338" width="50" height="68" rx="6" fill="#14313a"/>
+
+    <!-- Bubble tea -->
+    <rect x="256" y="140" width="204" height="266" fill="#fff0c9"/>
+    <rect x="256" y="140" width="204" height="30" fill="#ffb627"/>
+    <rect x="282" y="190" width="152" height="44" rx="6" fill="#0e8a84"/>
+    <text x="358" y="221" text-anchor="middle" font-family="Fredoka, system-ui, sans-serif" font-weight="700" font-size="23" fill="#fff" stroke="none" textLength="120" lengthAdjust="spacingAndGlyphs">Bubble Tea</text>
+    <path d="M272 254h172l10 36H262z" fill="#fff"/><path d="M272 254h29l-5 36h-34zM330 254h29l-2 36h-29zM388 254h29l5 36h-29z" fill="#0e8a84"/>
+    <rect x="282" y="306" width="72" height="100" rx="6" fill="#cdebf3"/><rect x="376" y="306" width="58" height="100" rx="6" fill="#14313a"/>
+    <path d="M308 326h20l-3 40h-14z" fill="#fff" stroke-width="3"/><circle cx="312" cy="360" r="3" fill="#1b2b3a" stroke="none"/><circle cx="321" cy="358" r="3" fill="#1b2b3a" stroke="none"/>
+
+    <!-- Empty lot -->
+    <rect x="480" y="352" width="120" height="54" rx="6" fill="#bfe5b0" stroke-dasharray="12 9"/>
+    <rect x="536" y="296" width="8" height="58" fill="#1b2b3a" stroke="none"/>
+    <rect x="502" y="268" width="76" height="40" rx="8" fill="#ffb627"/>
+    <text x="540" y="294" text-anchor="middle" font-family="Fredoka, system-ui, sans-serif" font-weight="700" font-size="17" fill="#1b2b3a" stroke="none" textLength="58" lengthAdjust="spacingAndGlyphs">For Rent</text>
+
+    <!-- Flower shop -->
+    <rect x="620" y="206" width="160" height="200" fill="#ffd36e"/>
+    <rect x="620" y="206" width="160" height="28" fill="#e6a82a"/>
+    <rect x="640" y="250" width="120" height="38" rx="6" fill="#fff"/>
+    <text x="700" y="277" text-anchor="middle" font-family="Fredoka, system-ui, sans-serif" font-weight="700" font-size="23" fill="#1b2b3a" stroke="none" textLength="84" lengthAdjust="spacingAndGlyphs">Flowers</text>
+    <path d="M632 304h136l8 32H624z" fill="#fff"/><path d="M632 304h23l-4 32h-27zM678 304h23l-1 32h-23zM724 304h23l4 32h-23z" fill="#ff6f59"/>
+    <rect x="640" y="346" width="56" height="60" rx="6" fill="#cdebf3"/><rect x="712" y="346" width="48" height="60" rx="6" fill="#14313a"/>
+    <g stroke-width="3"><circle cx="655" cy="340" r="0"/></g>
+
+    <!-- Sidewalk, road -->
+    <rect x="-4" y="404" width="808" height="40" fill="#efe6d2"/>
+    <rect x="-4" y="444" width="808" height="120" fill="#3d4b58"/>
+    <path d="M10 504h780" stroke="#fff" stroke-width="5" stroke-dasharray="34 26" fill="none"/>
+
+    <!-- Street lamp, trees -->
+    <rect x="466" y="300" width="8" height="106" fill="#1b2b3a" stroke="none"/><circle cx="470" cy="294" r="14" fill="#ffd36e"/>
+    <rect x="238" y="352" width="10" height="54" fill="#8a5a2b" stroke="none"/><circle cx="243" cy="336" r="26" fill="#3bb273"/><circle cx="224" cy="352" r="16" fill="#3bb273"/><circle cx="262" cy="352" r="16" fill="#3bb273"/>
+    <rect x="602" y="360" width="10" height="46" fill="#8a5a2b" stroke="none"/><circle cx="607" cy="346" r="22" fill="#3bb273"/>
+
+    <!-- Pedestrians -->
+    <g><circle cx="150" cy="378" r="9" fill="#ffd9b8"/><rect x="140" y="388" width="20" height="26" rx="8" fill="#2f7fd8"/></g>
+    <g><circle cx="410" cy="380" r="9" fill="#e9b88a"/><rect x="400" y="390" width="20" height="24" rx="8" fill="#ff6f59"/></g>
+
+    <!-- Car -->
+    <g transform="translate(250 452)"><rect x="0" y="22" width="150" height="38" rx="14" fill="#ff6f59"/><path d="M26 22l16-22h58l20 22z" fill="#ff6f59"/><path d="M46 20l11-14h18v14zM85 20V6h14l14 14z" fill="#cdebf3" stroke-width="3"/><circle cx="36" cy="62" r="13" fill="#1b2b3a"/><circle cx="116" cy="62" r="13" fill="#1b2b3a"/><circle cx="36" cy="62" r="4" fill="#fff" stroke="none"/><circle cx="116" cy="62" r="4" fill="#fff" stroke="none"/></g>
+  </g>
+</svg>
